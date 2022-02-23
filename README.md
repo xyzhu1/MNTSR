@@ -1,5 +1,5 @@
 # MNTSR
-This is the official code of the paper "Scene Text Image Super-Resolution with Self-Supervised Memory Learning"
+This is the official code of our paper "Scene Text Image Super-Resolution with Self-Supervised Memory Learning"
 
 ## Requirements
 - easydict==1.9
@@ -30,6 +30,7 @@ All the resources shoulded be placed under ```./dataset/mydata```, for example
 ```python
 ./dataset/mydata/train1
 ./dataset/mydata/train2
+./dataset/mydata/test
 ./dataset/mydata/pretrain_transformer.pth
 ...
 ```
