@@ -20,9 +20,8 @@ This is the official code of the paper "Scene Text Image Super-Resolution with S
 - ipython
 - future
 
-## Dataset
-Download all resources at [BaiduYunDisk](https://pan.baidu.com/s/1P_SCcQG74fiQfTnfidpHEw) with password: stt6, or [Dropbox](https://www.dropbox.com/sh/f294n405ngbnujn/AABUO6rv_5H5MvIvCblcf-aKa?dl=0)
-
+## Dataset 
+Download all resources at [BaiduYunDisk](https://pan.baidu.com/s/1sWV2_DUFXk4YuF2E4aUqSQ) with password: 6dbe
 * TextZoom dataset
 * Pretrained weights of CRNN 
 * Pretrained weights of Transformer-based recognizer
@@ -34,6 +33,16 @@ All the resources shoulded be placed under ```./dataset/mydata```, for example
 ./dataset/mydata/pretrain_transformer.pth
 ...
 ```
+
+## Pre-trained Model
+[[Model]](https://pan.baidu.com/s/1U3TULfHrSnd2yBSYHGU7xA) with password v4zq
+```python
+./checkpoint/zxytrain/epoch_best.pth
+
+```
+
+
+
 
 
 ## Testing
