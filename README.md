@@ -33,7 +33,14 @@ All the resources shoulded be placed under ```./dataset/mydata```, for example
 ./dataset/mydata/train2
 ./dataset/mydata/pretrain_transformer.pth
 ...
+```
 
+
+## Training
+Please remember to modify the experiment name. Two text-focused modules are activated whenever ```--text_focus``` is used
+```python
+CUDA_VISIBLE_DEVICES=GPU_NUM python main.py --batch_size=16 --STN --exp_name EXP_NAME --text_focus
+```
 
 ## Testing
 ```python
