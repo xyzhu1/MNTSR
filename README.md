@@ -19,3 +19,22 @@ This is the official code of the paper "Scene Text Image Super-Resolution with S
 - pyyaml
 - ipython
 - future
+
+## Dataset
+Download all resources at [BaiduYunDisk](https://pan.baidu.com/s/1P_SCcQG74fiQfTnfidpHEw) with password: stt6, or [Dropbox](https://www.dropbox.com/sh/f294n405ngbnujn/AABUO6rv_5H5MvIvCblcf-aKa?dl=0)
+
+* TextZoom dataset
+* Pretrained weights of CRNN 
+* Pretrained weights of Transformer-based recognizer
+
+All the resources shoulded be placed under ```./dataset/mydata```, for example
+```python
+./dataset/mydata/train1
+./dataset/mydata/train2
+./dataset/mydata/pretrain_transformer.pth
+...
+
+## Testing
+```python
+CUDA_VISIBLE_DEVICES=GPU_NUM python main.py --batch_size=16 --STN --exp_name EXP_NAME --text_focus --resume YOUR_MODEL --test --test_data_dir ./dataset/mydata/test
+```
