@@ -21,7 +21,7 @@ This is the official code of the paper "Scene Text Image Super-Resolution with S
 - future
 
 ## Dataset 
-Download all resources at [BaiduYunDisk](https://pan.baidu.com/s/1sWV2_DUFXk4YuF2E4aUqSQ) with password: 6dbe
+Download all resources at [Dataset ](https://pan.baidu.com/s/1sWV2_DUFXk4YuF2E4aUqSQ) with password: 6dbe
 * TextZoom dataset
 * Pretrained weights of CRNN 
 * Pretrained weights of Transformer-based recognizer
@@ -43,14 +43,16 @@ All the resources shoulded be placed under ```./dataset/mydata```, for example
 
 
 
-
-
 ## Testing
 ```python
 CUDA_VISIBLE_DEVICES=GPU_NUM python main.py --batch_size=16 --STN --exp_name EXP_NAME --text_focus --resume YOUR_MODEL --test --test_data_dir ./dataset/mydata/test
 ```
 
+
+## Demo for Testing
+```python
+CUDA_VISIBLE_DEVICES=0 python main.py --batch_size=16 --STN --exp_name zxytest --text_focus --test --test_data_dir ./dataset/mydata/test  
+```
+
 ## Training
-```
-We will open the training code as soon as our paper is accepted.
-```
+Coming soon!
