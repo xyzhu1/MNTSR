@@ -38,6 +38,8 @@ All the resources shoulded be placed under ```./dataset/mydata```, for example
 
 ```
 
+## Performance
+![image](https://user-images.githubusercontent.com/71440194/157405113-bf598616-7034-4709-8b91-b243baa71979.png)
 
 
 ## Testing
