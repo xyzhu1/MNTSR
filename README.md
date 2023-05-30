@@ -1,6 +1,3 @@
-# MNTSR
-This is the official code of our paper "Scene Text Image Super-Resolution with Self-Supervised Memory Learning"
-
 ## Requirements
 - easydict==1.9
 - editdistance==0.5.3
@@ -38,10 +35,6 @@ All the resources shoulded be placed under ```./dataset/mydata```, for example
 
 ```
 
-## Performance
-![image](https://user-images.githubusercontent.com/71440194/157405113-bf598616-7034-4709-8b91-b243baa71979.png)
-
-
 ## Testing
 ```python
 CUDA_VISIBLE_DEVICES=GPU_NUM python main.py --batch_size=16 --STN --exp_name EXP_NAME --text_focus --resume YOUR_MODEL --test --test_data_dir ./dataset/mydata/test
@@ -52,6 +45,3 @@ CUDA_VISIBLE_DEVICES=GPU_NUM python main.py --batch_size=16 --STN --exp_name EXP
 ```python
 CUDA_VISIBLE_DEVICES=0 python main.py --batch_size=16 --STN --exp_name zxytest --text_focus --test --test_data_dir ./dataset/mydata/test  
 ```
-
-## Training
-Coming soon!
